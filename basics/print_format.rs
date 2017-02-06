@@ -39,4 +39,8 @@ fn main() {
     // handling. This will not work.
     // println!("This struct `{}` won't print...", Structure(3));
     // FIXME ^ Comment out this line.
+
+    // Decimal points
+    let pi = 3.141592;
+    println!("Pi is: {:.3}", pi);
 }
